@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3821" started-at="2019-05-31T04:23:36Z" finished-at="2019-05-31T04:23:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3821" started-at="2019-05-31T04:23:36Z" finished-at="2019-05-31T04:23:40Z">
+      <class name="com.class2.task2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.class2.task2@457e2f02]" name="setUp" is-config="true" duration-ms="2245" started-at="2019-05-31T04:23:36Z" finished-at="2019-05-31T04:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginScreenTitle()[pri:1, instance:com.class2.task2@457e2f02]" name="loginScreenTitle" duration-ms="15" started-at="2019-05-31T04:23:38Z" finished-at="2019-05-31T04:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginScreenTitle -->
+        <test-method status="PASS" signature="login()[pri:2, instance:com.class2.task2@457e2f02]" name="login" duration-ms="1513" started-at="2019-05-31T04:23:38Z" finished-at="2019-05-31T04:23:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="webOrders()[pri:3, instance:com.class2.task2@457e2f02]" name="webOrders" duration-ms="29" started-at="2019-05-31T04:23:40Z" finished-at="2019-05-31T04:23:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webOrders -->
+      </class> <!-- com.class2.task2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
