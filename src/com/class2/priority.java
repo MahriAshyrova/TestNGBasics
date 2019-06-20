@@ -1,3 +1,4 @@
+package com.class2;
 import org.testng.annotations.Test;
 
 public class priority {

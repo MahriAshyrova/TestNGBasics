@@ -41,6 +41,4 @@ public class softAndHardAssertExample extends CommonMethods{
 //		Assert.assertTrue(logo);
 //		System.out.println("hard assert");
 	}
-	
-
 }

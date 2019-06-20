@@ -1,29 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3821" started-at="2019-05-31T04:23:36Z" finished-at="2019-05-31T04:23:40Z">
+  <suite name="Suite" duration-ms="6432" started-at="2019-06-12T16:48:18Z" finished-at="2019-06-12T16:48:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3821" started-at="2019-05-31T04:23:36Z" finished-at="2019-05-31T04:23:40Z">
-      <class name="com.class2.task2">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.class2.task2@457e2f02]" name="setUp" is-config="true" duration-ms="2245" started-at="2019-05-31T04:23:36Z" finished-at="2019-05-31T04:23:38Z">
+    <test name="FireFoxTest" duration-ms="6432" started-at="2019-06-12T16:48:18Z" finished-at="2019-06-12T16:48:25Z">
+      <class name="com.class5.Task1SmartBears">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class5.Task1SmartBears@224edc67]" name="setUp" is-config="true" duration-ms="4079" started-at="2019-06-12T16:48:18Z" finished-at="2019-06-12T16:48:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://secure.smartbearsoftware.com/samples/TestComplete11/WebOrders/Login.aspx?]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginScreenTitle()[pri:1, instance:com.class2.task2@457e2f02]" name="loginScreenTitle" duration-ms="15" started-at="2019-05-31T04:23:38Z" finished-at="2019-05-31T04:23:38Z">
+        <test-method status="PASS" signature="testUsers(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class5.Task1SmartBears@224edc67]" name="testUsers" duration-ms="953" started-at="2019-06-12T16:48:22Z" data-provider="setOfData" finished-at="2019-06-12T16:48:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[John Smith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123 street ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ashburn]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Va]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[20147]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0000]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[00/00]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginScreenTitle -->
-        <test-method status="PASS" signature="login()[pri:2, instance:com.class2.task2@457e2f02]" name="login" duration-ms="1513" started-at="2019-05-31T04:23:38Z" finished-at="2019-05-31T04:23:40Z">
+        </test-method> <!-- testUsers -->
+        <test-method status="PASS" signature="testUsers(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class5.Task1SmartBears@224edc67]" name="testUsers" duration-ms="822" started-at="2019-06-12T16:48:23Z" data-provider="setOfData" finished-at="2019-06-12T16:48:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mary Smith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123 street ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ashburn]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Va]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[20147]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0001]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/00]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="webOrders()[pri:3, instance:com.class2.task2@457e2f02]" name="webOrders" duration-ms="29" started-at="2019-05-31T04:23:40Z" finished-at="2019-05-31T04:23:40Z">
+        </test-method> <!-- testUsers -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.class5.Task1SmartBears@224edc67]" name="tearDown" is-config="true" duration-ms="563" started-at="2019-06-12T16:48:24Z" finished-at="2019-06-12T16:48:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- webOrders -->
-      </class> <!-- com.class2.task2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.class5.Task1SmartBears -->
+    </test> <!-- FireFoxTest -->
+  </suite> <!-- Suite -->
 </testng-results>
